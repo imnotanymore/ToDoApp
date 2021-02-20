@@ -1,0 +1,22 @@
+//
+//  TaskListViewModel.swift
+//  ToDo
+//
+//  Created by Patryk Leszner on 20/02/2021.
+//
+
+import Foundation
+import Combine
+
+class TaskListViewModel: ObservableObject{
+    @Published var taskCellViewModels = [TaskCellViewModel]()
+    
+    private var cancellables = Set<AnyCancellable>()
+    
+    init(){
+        self.taskCellViewModels = testDataTasks.map(){ task in
+            TaskCellViewModel(task: task)
+            
+        }
+    }
+}
