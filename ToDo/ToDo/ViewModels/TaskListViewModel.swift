@@ -24,4 +24,7 @@ class TaskListViewModel: ObservableObject{
         let taskVM = TaskCellViewModel(task: task)
         self.taskCellViewModels.append(taskVM)
     }
+    
+    
 }
+
