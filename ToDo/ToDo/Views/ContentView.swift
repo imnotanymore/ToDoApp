@@ -12,6 +12,9 @@ struct ContentView: View {
     let tasks = testDataTasks
     @State var presentAddNewItem = false
     @State private var editMode = EditMode.inactive
+    init() {
+            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.purple]
+    }
     var body: some View {
             VStack {
                 NavigationView {
