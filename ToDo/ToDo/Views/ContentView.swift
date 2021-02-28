@@ -27,6 +27,7 @@ struct ContentView: View {
                             List{
                                 ForEach(TaskListVM.taskCellViewModels) { taskCellVM in
                                     TaskCell(taskCellVM: taskCellVM)
+                                    
                                 }
                                 .onDelete(perform: onDelete)
                                 .onMove(perform: onMove)
@@ -37,7 +38,7 @@ struct ContentView: View {
                                     }
                                 }
                             }
-                            .listStyle(PlainListStyle())
+                            .listStyle(InsetGroupedListStyle())
                             Button(action: {self.presentAddNewItem.toggle()}) {
                                 HStack{
                                     Image(systemName: "plus.circle.fill")

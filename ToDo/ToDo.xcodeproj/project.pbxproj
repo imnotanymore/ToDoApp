@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA7924ED25EBEB69006D88D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7924EC25EBEB69006D88D5 /* GoogleService-Info.plist */; };
 		AAF0944C25E15B4F0097BCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */; };
 		AAF0944E25E15B4F0097BCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */; };
 		AAF0945025E15B4F0097BCD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944F25E15B4F0097BCD7 /* ContentView.swift */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA7924EC25EBEB69006D88D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AAF0944825E15B4F0097BCD7 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,11 +84,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA7924F425EBF2C4006D88D5 /* Repositories */ = {
+		AA79250525EC19C0006D88D5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Repositories;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		AAF0943F25E15B4F0097BCD7 = {
@@ -116,7 +114,7 @@
 		AAF0944A25E15B4F0097BCD7 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				AA7924F425EBF2C4006D88D5 /* Repositories */,
+				AA79250525EC19C0006D88D5 /* Data */,
 				AAF0948B25E15D8C0097BCD7 /* App */,
 				AAF0949125E16DFF0097BCD7 /* ViewModels */,
 				AAF0948D25E15DB80097BCD7 /* Views */,
@@ -143,7 +141,6 @@
 			children = (
 				AAF0946525E15B550097BCD7 /* ToDoTests.swift */,
 				AAF0946725E15B550097BCD7 /* Info.plist */,
-				AA7924EC25EBEB69006D88D5 /* GoogleService-Info.plist */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -304,7 +301,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7924ED25EBEB69006D88D5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
