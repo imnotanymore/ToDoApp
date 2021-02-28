@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA79253A25EC43A1006D88D5 /* Swaggers in Resources */ = {isa = PBXBuildFile; fileRef = AA79253925EC43A0006D88D5 /* Swaggers */; };
+		AA79253F25EC43B9006D88D5 /* APIs in Resources */ = {isa = PBXBuildFile; fileRef = AA79253E25EC43B9006D88D5 /* APIs */; };
 		AAF0944C25E15B4F0097BCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */; };
 		AAF0944E25E15B4F0097BCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */; };
 		AAF0945025E15B4F0097BCD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944F25E15B4F0097BCD7 /* ContentView.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA79253925EC43A0006D88D5 /* Swaggers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Swaggers; path = "../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers"; sourceTree = "<group>"; };
+		AA79253E25EC43B9006D88D5 /* APIs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = APIs; path = "../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/APIs"; sourceTree = "<group>"; };
 		AAF0944825E15B4F0097BCD7 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,13 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA79250525EC19C0006D88D5 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		AAF0943F25E15B4F0097BCD7 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +111,8 @@
 		AAF0944A25E15B4F0097BCD7 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				AA79250525EC19C0006D88D5 /* Data */,
+				AA79253E25EC43B9006D88D5 /* APIs */,
+				AA79253925EC43A0006D88D5 /* Swaggers */,
 				AAF0948B25E15D8C0097BCD7 /* App */,
 				AAF0949125E16DFF0097BCD7 /* ViewModels */,
 				AAF0948D25E15DB80097BCD7 /* Views */,
@@ -293,7 +291,9 @@
 			files = (
 				AAF0945B25E15B550097BCD7 /* LaunchScreen.storyboard in Resources */,
 				AAF0945825E15B550097BCD7 /* Preview Assets.xcassets in Resources */,
+				AA79253F25EC43B9006D88D5 /* APIs in Resources */,
 				AAF0945525E15B550097BCD7 /* Assets.xcassets in Resources */,
+				AA79253A25EC43A1006D88D5 /* Swaggers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

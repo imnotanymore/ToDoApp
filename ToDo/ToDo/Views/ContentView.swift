@@ -24,6 +24,7 @@ struct ContentView: View {
                         LinearGradient(gradient: Gradient(colors: [Color.white, Color.purple]), startPoint: .topLeading, endPoint: .bottomTrailing)
                             .edgesIgnoringSafeArea(.all)
                         VStack(alignment: .leading){
+                            
                             List{
                                 ForEach(TaskListVM.taskCellViewModels) { taskCellVM in
                                     TaskCell(taskCellVM: taskCellVM)
@@ -38,6 +39,7 @@ struct ContentView: View {
                                     }
                                 }
                             }
+                            .onAppear(perform: loadData)
                             .listStyle(InsetGroupedListStyle())
                             Button(action: {self.presentAddNewItem.toggle()}) {
                                 HStack{
@@ -59,13 +61,20 @@ struct ContentView: View {
                 }
             }
         }
-    
+        private func loadData(){
+        guard let url = URL(string: "https://app.swaggerhub.com/apis/imnotanymore/ToDoApi/1.0.0") else {
+            print("error")
+            return
+        }
+    }
         private func onDelete(offsets: IndexSet) {
             TaskListVM.taskCellViewModels.remove(atOffsets: offsets)
             }
         private func onMove(source: IndexSet, destination: Int) {
             TaskListVM.taskCellViewModels.move(fromOffsets: source, toOffset: destination)
             }
+        
+    
     }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
