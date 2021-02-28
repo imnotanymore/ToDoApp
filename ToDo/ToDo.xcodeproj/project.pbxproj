@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA79253A25EC43A1006D88D5 /* Swaggers in Resources */ = {isa = PBXBuildFile; fileRef = AA79253925EC43A0006D88D5 /* Swaggers */; };
-		AA79253F25EC43B9006D88D5 /* APIs in Resources */ = {isa = PBXBuildFile; fileRef = AA79253E25EC43B9006D88D5 /* APIs */; };
+		AA79258225EC4625006D88D5 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258125EC4625006D88D5 /* AlamofireImplementations.swift */; };
+		AA79258F25EC462F006D88D5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258625EC462F006D88D5 /* Extensions.swift */; };
+		AA79259025EC462F006D88D5 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258725EC462F006D88D5 /* CodableHelper.swift */; };
+		AA79259125EC462F006D88D5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258825EC462F006D88D5 /* Models.swift */; };
+		AA79259225EC462F006D88D5 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258925EC462F006D88D5 /* JSONEncodingHelper.swift */; };
+		AA79259325EC462F006D88D5 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258A25EC462F006D88D5 /* APIs.swift */; };
+		AA79259425EC462F006D88D5 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258B25EC462F006D88D5 /* JSONEncodableEncoding.swift */; };
+		AA79259525EC462F006D88D5 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258C25EC462F006D88D5 /* APIHelper.swift */; };
+		AA79259625EC462F006D88D5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258D25EC462F006D88D5 /* Configuration.swift */; };
+		AA79259725EC462F006D88D5 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79258E25EC462F006D88D5 /* JSONValue.swift */; };
 		AAF0944C25E15B4F0097BCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */; };
 		AAF0944E25E15B4F0097BCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */; };
 		AAF0945025E15B4F0097BCD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0944F25E15B4F0097BCD7 /* ContentView.swift */; };
@@ -41,8 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA79253925EC43A0006D88D5 /* Swaggers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Swaggers; path = "../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers"; sourceTree = "<group>"; };
-		AA79253E25EC43B9006D88D5 /* APIs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = APIs; path = "../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/APIs"; sourceTree = "<group>"; };
+		AA79258125EC4625006D88D5 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireImplementations.swift; path = "../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/AlamofireImplementations.swift"; sourceTree = "<group>"; };
+		AA79258625EC462F006D88D5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/Extensions.swift"; sourceTree = "<group>"; };
+		AA79258725EC462F006D88D5 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/CodableHelper.swift"; sourceTree = "<group>"; };
+		AA79258825EC462F006D88D5 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/Models.swift"; sourceTree = "<group>"; };
+		AA79258925EC462F006D88D5 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONEncodingHelper.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/JSONEncodingHelper.swift"; sourceTree = "<group>"; };
+		AA79258A25EC462F006D88D5 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIs.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/APIs.swift"; sourceTree = "<group>"; };
+		AA79258B25EC462F006D88D5 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONEncodableEncoding.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/JSONEncodableEncoding.swift"; sourceTree = "<group>"; };
+		AA79258C25EC462F006D88D5 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/APIHelper.swift"; sourceTree = "<group>"; };
+		AA79258D25EC462F006D88D5 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/Configuration.swift"; sourceTree = "<group>"; };
+		AA79258E25EC462F006D88D5 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONValue.swift; path = "../../../../../../../Downloads/swift5-client-generated/SwaggerClient/Classes/Swaggers/JSONValue.swift"; sourceTree = "<group>"; };
 		AAF0944825E15B4F0097BCD7 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF0944B25E15B4F0097BCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF0944D25E15B4F0097BCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +104,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA79257F25EC460B006D88D5 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				AA79258125EC4625006D88D5 /* AlamofireImplementations.swift */,
+				AA79258025EC461A006D88D5 /* API */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		AA79258025EC461A006D88D5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AA79258C25EC462F006D88D5 /* APIHelper.swift */,
+				AA79258A25EC462F006D88D5 /* APIs.swift */,
+				AA79258725EC462F006D88D5 /* CodableHelper.swift */,
+				AA79258D25EC462F006D88D5 /* Configuration.swift */,
+				AA79258625EC462F006D88D5 /* Extensions.swift */,
+				AA79258B25EC462F006D88D5 /* JSONEncodableEncoding.swift */,
+				AA79258925EC462F006D88D5 /* JSONEncodingHelper.swift */,
+				AA79258E25EC462F006D88D5 /* JSONValue.swift */,
+				AA79258825EC462F006D88D5 /* Models.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		AAF0943F25E15B4F0097BCD7 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +152,7 @@
 		AAF0944A25E15B4F0097BCD7 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				AA79253E25EC43B9006D88D5 /* APIs */,
-				AA79253925EC43A0006D88D5 /* Swaggers */,
+				AA79257F25EC460B006D88D5 /* Swaggers */,
 				AAF0948B25E15D8C0097BCD7 /* App */,
 				AAF0949125E16DFF0097BCD7 /* ViewModels */,
 				AAF0948D25E15DB80097BCD7 /* Views */,
@@ -291,9 +331,7 @@
 			files = (
 				AAF0945B25E15B550097BCD7 /* LaunchScreen.storyboard in Resources */,
 				AAF0945825E15B550097BCD7 /* Preview Assets.xcassets in Resources */,
-				AA79253F25EC43B9006D88D5 /* APIs in Resources */,
 				AAF0945525E15B550097BCD7 /* Assets.xcassets in Resources */,
-				AA79253A25EC43A1006D88D5 /* Swaggers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,13 +356,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79259125EC462F006D88D5 /* Models.swift in Sources */,
 				AAF0949825E170510097BCD7 /* TaskListViewModel.swift in Sources */,
+				AA79258F25EC462F006D88D5 /* Extensions.swift in Sources */,
+				AA79259525EC462F006D88D5 /* APIHelper.swift in Sources */,
 				AAF0944C25E15B4F0097BCD7 /* AppDelegate.swift in Sources */,
+				AA79258225EC4625006D88D5 /* AlamofireImplementations.swift in Sources */,
+				AA79259625EC462F006D88D5 /* Configuration.swift in Sources */,
 				AAF0949325E16E490097BCD7 /* TaksCellViewModel.swift in Sources */,
 				AAF0944E25E15B4F0097BCD7 /* SceneDelegate.swift in Sources */,
 				AAF0945025E15B4F0097BCD7 /* ContentView.swift in Sources */,
+				AA79259725EC462F006D88D5 /* JSONValue.swift in Sources */,
+				AA79259225EC462F006D88D5 /* JSONEncodingHelper.swift in Sources */,
 				AAF0948325E15C5B0097BCD7 /* Tasks.swift in Sources */,
+				AA79259025EC462F006D88D5 /* CodableHelper.swift in Sources */,
 				AAF0945325E15B4F0097BCD7 /* ToDo.xcdatamodeld in Sources */,
+				AA79259425EC462F006D88D5 /* JSONEncodableEncoding.swift in Sources */,
+				AA79259325EC462F006D88D5 /* APIs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
