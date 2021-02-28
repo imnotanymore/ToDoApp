@@ -13,15 +13,13 @@ struct Task: Identifiable {
     var completed: Bool
 }
 
-#if DEBUG
 
-let testDataTasks = [
-    Task(title: "1", completed: true),
-    Task(title: "2", completed: false),
-    Task(title: "3", completed: false)
+
+let DataTasks = [
+    Task(title: "", completed: false),
 ]
 
-#endif
+
 
 
 

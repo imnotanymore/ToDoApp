@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var TaskListVM = TaskListViewModel()
-    let tasks = testDataTasks
+    let tasks = DataTasks
     @State var presentAddNewItem = false
     @State private var editMode = EditMode.inactive
     init() {
             UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.purple]
+               
     }
     var body: some View {
+        
             VStack {
                 NavigationView {
                     ZStack{
@@ -56,6 +58,7 @@ struct ContentView: View {
                 }
             }
         }
+    
         private func onDelete(offsets: IndexSet) {
             TaskListVM.taskCellViewModels.remove(atOffsets: offsets)
             }

@@ -14,7 +14,7 @@ class TaskListViewModel: ObservableObject{
     private var cancellables = Set<AnyCancellable>()
     
     init(){
-        self.taskCellViewModels = testDataTasks.map(){ task in
+        self.taskCellViewModels = DataTasks.map(){ task in
             TaskCellViewModel(task: task)
             
         }
